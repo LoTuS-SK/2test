@@ -7,6 +7,7 @@ import cesar from "../../../png/foot/cesar.png"
 import svekla from "../../../png/foot/svekla.png"
 import burat from "../../../png/foot/burata.png"
 import печень  from "../../../png/foot/печень.png"
+import росбив from "../../../png/foot/росбиф3.png"
 
 
 const Salat = ({display,func,back}) => {
@@ -52,7 +53,7 @@ const Salat = ({display,func,back}) => {
 
           <div className='item_pal' tabIndex="0" >
             <div className='label' onClick={func}>{ru==="ru"?"Ростбиф с салатом, огурцом и сладким томатом":"Roast beef with lettuce, cucumber and sweet tomato"}</div>
-            {/* <div className="wr_img"><img src={печень} alt="" /></div> */}
+            <div className="wr_img"><img src={росбив} alt="" /></div>
             <span className='price-pl'>180 г / 690 ₽</span>
           </div>
 
